@@ -1,16 +1,28 @@
 * {
 	font-family: "Roboto", sans-serif;
 }
-header {
+.empty_container {
+	min-height: 50px;
 }
+/* header {
+	padding-top: 51px;
+} */
+
+/* header {
+	position: relative;
+	height: 50px;
+} */
 
 nav {
-	position: fixed;
-	height: 51px;
+	/* position: fixed; */
+	width: 100%;
+	min-height: 50px;
 	background: #212121;
+	z-index: 2;
 }
 .menu {
 	display: flex;
+	min-height: 50px;
 	justify-content: space-between;
 	padding: 13px 70px;
 	margin: 0;
@@ -156,4 +168,88 @@ nav {
 	text-transform: uppercase;
 	color: #ffffff;
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.reasons {
+	padding: 18px 0 64px 0;
+
+	/* min-height: 1146px; */
+}
+.reasons .reasons_black_box {
+	margin: 0 auto;
+	width: 112px;
+	height: 24px;
+	background: #000000;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 11px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	mix-blend-mode: normal;
+	margin-bottom: 33px;
+}
+
+.reasons .reasons_header {
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 48px;
+	/* identical to box height, or 126% */
+
+	/* display: flex; */
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	margin-top: 38px;
+
+	color: #222222;
+}
+
+.reasons .reasons_item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 35px;
+	/* text-align: start; */
+}
+
+.reasons .reasons_item .reasons_img {
+	display: flex;
+	padding: 58px;
+	width: 116px;
+	height: 116px;
+	background-color: #1eacc7;
+	border-radius: 100%;
+	margin-right: 26px;
+	align-items: center;
+	justify-content: center;
+}
+
+.reasons .reasons_item .reasons_descr {
+	width: 343px;
+	text-align: start;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 21px;
+	/* or 140% */
+
+	/* display: flex; */
+	/* align-items: top; */
+
+	color: #202020;
+}
+.reasons .reasons_item .reasons_descr .reasons_subtitle {
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 21px;
+	/* or 124% */
+
+	/* display: flex;
+align-items: center; */
+
+	color: #1eacc7;
 }
