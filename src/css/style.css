@@ -328,4 +328,48 @@ nav {
 }
 .mobile_item_plus img {
   width: 100%;
+}
+
+.choice {
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 898px;
+  width: 100%;
+  padding-top: 56px;
+  padding-bottom: 137px;
+  background: url("../img/background_mobile.png") center center/cover no repeat;
+}
+.choice .container {
+  margin: 0 auto;
+}
+.choice .container .choice_label {
+  color: #070716;
+  background: #FFFFFF;
+}
+.choice .container .choice_title {
+  color: #fff;
+}
+.choice .container .choice_subtitle {
+  color: #fff;
+  text-align: center;
+}
+.choice .container .choice_img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 54px;
+  left: 0;
+  top: 0;
+}
+.choice .container .black {
+  position: absolute;
+  width: 100%;
+  height: 502px;
+  z-index: -1;
+  background: #000;
+  left: 0;
+  top: 0;
 }/*# sourceMappingURL=style.css.map */
